@@ -370,5 +370,39 @@ header {
   width: 500%;
   
 } */
+/***********video***************/
+
+.divvideo{
+  text-align: center ;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-image: url(images/backmenthe.jpg);
+  background-size: cover;
+
+}
+
 
 /*********************Footer*************************/
+.hrfooter{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 87px;
+   margin-right: 89px;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+.fa-brands {
+  padding: 3px;
+}
