@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <script src="jquery-3.6.4.js"></script>
     
     <title>TestTechnique</title>
 </head>
-<body  >
+
+
+<body>
 
     <header class="page">
         <div class="container">
@@ -45,7 +48,7 @@
 
     
     
-      <div class="image-container">
+      <div class="image-container" id="section1">
         <img src="images/3.jpg" alt="Image plein écran" class="image2">
         <div class="text-container">
           <h1>Thé vert<br> instantané </h1>
@@ -56,13 +59,10 @@
 
 
 
-      <!-- <div>
-        <h1>Pourquoi le meilleur saveur?</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero minima veritatis, doloribus enim quasi quis deserunt dolore tempora exercitationem porro.</p>
-        <img src="images/menthe.jpg" alt="menthe">
-      </div> -->
 
-      <div class="mytext">
+
+
+      <div class="mytext" id="section2">
         <div class="mytext2">
           <h1>Pourquoi le meilleur saveur?</h1>
           <p>Thé vert instantané à la menthe 100% naturel au goût authentique en version sucrée et sans sucre.
@@ -75,9 +75,10 @@
       </div>
 
 
+
       <!-- Image titre -->
 
-      <div class="divimage">
+      <div class="divimage" id="section3">
         <img src="images/the-vert.jpg" alt="" class="monimage">
         <h3>Produit vegan</h3>
 
@@ -93,81 +94,79 @@
       
 
       <!-- /**************Card kyufi*********************** -->
+
+
+      
+
       <h1 style="text-align: center; margin-top:30px;">NOTRE SELECTION</h1>
-      <div class="card-container">
-       
-        <div class="card">
+
+        <div class="card-container"> 
+          <div class="card">
+            <img src="images/kyufi1.jpg" alt="Image 1">
+            <hr>
+            <p>Thés noir <br> à la menthesans sucre</p>
+            <div class="rating">
+              <span class="star"><i class="fas fa-star"></i></span>
+              <span class="star"><i class="fas fa-star"></i></span>
+              <span class="star"><i class="fas fa-star"></i></span>
+              <span class="star"><i class="fas fa-star"></i></span>
+              <span class="star"><i class="fa-regular fa-star"></i> </span>
+            </div>
+            <button class="btn">Ajouter </button><i class="fa-sharp fa-solid fa-basket-shopping"></i>
+          </div>
           
-          <img src="images/kyufi1.jpg" alt="Image 1">
-          <hr>
-          <p>Thés noir <br> à la menthesans sucre</p>
-          <div class="rating">
-            <span class="star"><i class="fas fa-star"></i></span>
-            <span class="star"><i class="fas fa-star"></i></span>
-            <span class="star"><i class="fas fa-star"></i></span>
-            <span class="star"><i class="fas fa-star"></i></span>
-            <span class="star"><i class="fa-regular fa-star"></i> </span>
-            
+          <div class="card">
+            <img src="images/kyufi1.jpg" alt="Image 2">
+            <hr>
+            <p>Thés noir <br> à la menthesans sucre</p>
+            <div class="rating">
+              <span class="star"><i class="fas fa-star"></i></span>
+              <span class="star"><i class="fas fa-star"></i></span>
+              <span class="star"><i class="fas fa-star"></i></span>
+              <span class="star"><i class="fas fa-star"></i></span>
+              <span class="star"><i class="fa-regular fa-star"></i></span>
+            </div>
+            <button class="btn">Ajouter</button><i class="fa-sharp fa-solid fa-basket-shopping"></i>
           </div>
-          <button class="btn">Ajouter </button><i class="fa-sharp fa-solid fa-basket-shopping"></i>
-        </div>
-        
-        <div class="card">
-          <img src="images/kyufi1.jpg" alt="Image 2">
-          <hr>
-          <p>Thés noir <br> à la menthesans sucre</p>
-          <div class="rating">
-            <span class="star"><i class="fas fa-star"></i></span>
-            <span class="star"><i class="fas fa-star"></i></span>
-            <span class="star"><i class="fas fa-star"></i></span>
-            <span class="star"><i class="fas fa-star"></i></span>
-            <span class="star"><i class="fa-regular fa-star"></i></span>
+          
+          <div class="card">
+            <img src="images/kyufi3.jpg" alt="Image 3">
+            <hr>
+            <p>Thés noir <br> à la menthesans sucre</p>
+            <div class="rating">
+              <span class="star"><i class="fas fa-star"></i></span>
+              <span class="star"><i class="fas fa-star"></i></span>
+              <span class="star"><i class="fas fa-star"></i></span>
+              <span class="star"><i class="fas fa-star"></i></span>
+              <span class="star"><i class="fa-regular fa-star"></i></span>
+            </div>
+            <button class="btn">Ajouter </button><i class="fa-sharp fa-solid fa-basket-shopping"></i>
           </div>
-          <button class="btn">Ajouter</button><i class="fa-sharp fa-solid fa-basket-shopping"></i>
-        </div>
-        
-        <div class="card">
-          <img src="images/kyufi3.jpg" alt="Image 3">
-          <hr>
-          <p>Thés noir <br> à la menthesans sucre</p>
-          <div class="rating">
-            <span class="star"><i class="fas fa-star"></i></span>
-            <span class="star"><i class="fas fa-star"></i></span>
-            <span class="star"><i class="fas fa-star"></i></span>
-            <span class="star"><i class="fas fa-star"></i></span>
-            <span class="star"><i class="fa-regular fa-star"></i></span>
+          
+          <div class="card">
+            <img src="images/kyufi3.jpg" alt="Image 4">
+            <hr>  
+            <p>Thés noir <br> à la menthesans sucre</p>
+            <div class="rating">
+              <span class="star"><i class="fas fa-star"></i></span>
+              <span class="star"><i class="fas fa-star"></i></span>
+              <span class="star"><i class="fas fa-star"></i></span>
+              <span class="star"><i class="fas fa-star"></i></span>
+              <span class="star"><i class="fa-regular fa-star"></i></span>
+            </div>
+            <button class="btn">Ajouter</button><i class="fa-sharp fa-solid fa-basket-shopping"></i>
           </div>
-          <button class="btn">Ajouter </button><i class="fa-sharp fa-solid fa-basket-shopping"></i>
         </div>
-        
-        <div class="card">
-          <img src="images/kyufi3.jpg" alt="Image 4">
-          <hr>  
-          <p>Thés noir <br> à la menthesans sucre</p>
-          <div class="rating">
-            <span class="star"><i class="fas fa-star"></i></span>
-            <span class="star"><i class="fas fa-star"></i></span>
-            <span class="star"><i class="fas fa-star"></i></span>
-            <span class="star"><i class="fas fa-star"></i></span>
-            <span class="star"><i class="fa-regular fa-star"></i></span>
-          </div>
-          <button class="btn">Ajouter</button><i class="fa-sharp fa-solid fa-basket-shopping"></i>
-        </div>
-      </div>
 
 
 
       
-        <!-- <div class="image-container">
-          <img src="images/tof1.jpg" alt="Image 1">
-          <img src="images/tof2.jpg" alt="Image 2">
-        </div>
-       -->
+       
 
        <div class="image-container">
         <div class="image-description">
           <p>Kyufi est une marque de thé vert instantané à la menthe 100% naturel.
-            Termes manquants : ros ‎| Doit inclure : ros
+            Termes manquants : ros Doit inclure : ros
             Vous avez consulté cette page le 23/03/23.</p>
           <button class="decouvrir-btn">Découvrir</button>
         </div>
@@ -176,32 +175,24 @@
        
         <div class="image-description2">
           <p>Kyufi est une marque de thé vert instantané à la menthe 100% naturel.
-            
             Vous avez consulté cette page le 23/03/23.</p>
           <button class="decouvrir-btn2">Découvrir</button>
         </div>
-      
-
         <img src="images/tof1.jpg" alt="Image 1">
         <img src="images/tof2.jpg" alt="Image 2">
       </div>
       
 
 
-      <!-- ici newsletter -->
-      <!-- <div>
-        <img src="images/tey.jpg" alt="" class="monimage2">
-      </div> -->
     
-      <div class="divlettre">
+      <div class="divlettre" id="section4">
        
         <form class="myletter">
-          
           <h1 class="myletter1">NEWSLETTER</h1>
             <!-- <hr class="myline"/> -->
           <label for="email" class="monlabel">Receoir nos offre via newsletter</label>
           <input type="email" id="email" name="email"  class="inscriver" placeholder="Votre adresse mail">
-          <button type="submit" class="myboutton">S'inscrire</button>
+          <button type="submit" class="myboutton" id="inscrire-btn">S'inscrire</button>
         </form>
         <img src="images/tey.jpg" alt="" class="monimage2">
       </div>
@@ -209,7 +200,7 @@
 
 <!-- section video -->
 
-<div class="divvideo">
+<div class="divvideo" id="section5">
   <h1>Idee de recette</h1>
   <p>La technologie du thé Kyufi est unique au monde, elle permet de convertir les feuilles de thé et de menthe en poudre soluble avec autant d’élégance que du thé traditionnel. Goût authentique et usage rapide sont enfin réunis.</p>
   <video src="images/ff.mp4" width="640" height="360" controls>
@@ -297,9 +288,242 @@
 
 
 
+<nav>
+  <ul>
+    <li><a href="#section1">Acceuil</a></li>
+    <li><a href="#section2">Meilleur saveur</a></li>
+    <li><a href="#section3">Nos Selection</a></li>
+    <li><a href="#section4">Contact</a></li>
+    <li><a href="#section5">Kyufi</a></li>
+  </ul>
+</nav>
 
 
+ 
+
+
+ <script>
+//animation texte 
+$(document).ready(function() {
+  // Variables pour le texte à animer
+  var title = $('.text-container h1');
+  var description = $('.text-container p');
+
+  // Fonction pour animer le texte
+  function animateText(element, text, speed) {
+    var currentText = '';
+    var i = 0;
+    var textLength = text.length;
+
+    // Interval pour ajouter progressivement chaque caractère au texte
+    setInterval(function() {
+      if (i < textLength) {
+        currentText += text.charAt(i);
+        element.html(currentText);
+        i++;
+      }
+    }, speed);
+  }
+
+  // Animer le texte dans la balise h1
+  animateText(title, 'Thé vert instantané', 100);
+
+  
+});
+
+
+
+
+
+
+
+ $(document).ready(function() {
+  // Animation du texte
+  $(".mytext2").animate({
+    opacity: 1,
+    transform: "translateY(0)"
+  }, 1000);
+
+  // Animation de l'image
+  $(".mytext3").animate({
+    opacity: 1,
+    transform: "translateX(0)"
+  }, 1000);
+});
+
+
+
+$(document).ready(function() {
+  $('.decouvrir-btn').hover(function() {
+    $(this).animate({marginTop: "-5px"}, 200);
+  }, function() {
+    $(this).animate({marginTop: "0px"}, 200);
+  });
+});
+
+// btn2
+$(document).ready(function() {
+  // On cache le bouton
+  $('.decouvrir-btn2').hide();
+
+  // On ajoute une classe CSS pour animer le bouton
+  setInterval(function() {
+    $('.decouvrir-btn2').fadeIn(1000).fadeOut(1000);
+  }, 2000);
+});
+
+
+//contact
+
+$(document).ready(function(){
+    $('#sinscrire').click(function(){
+      $('#contact').toggle();
+      return false;
+    });
+  });
+
+  //btn ajouter
+  $(document).ready(function() {
+  $('.btn').click(function() {
+    $(this).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
+  });
+});
+
+
+
+$(document).ready(function() {
+  var images = $(".monimage");
+  var angle = 0;
+
+  setInterval(function() {
+    angle += 3;
+    images.rotate(angle);
+  }, 50);
+});
+
+// plugin pour la rotation de l'image
+$.fn.rotate = function(degrees) {
+  $(this).css({
+    "-webkit-transform": "rotate(" + degrees + "deg)",
+    "-moz-transform": "rotate(" + degrees + "deg)",
+    "-o-transform": "rotate(" + degrees + "deg)",
+    "-ms-transform": "rotate(" + degrees + "deg)"
+  });
+  return $(this);
+};
+
+
+
+$(document).ready(function() {
+  var images = $(".monimage");
+  var angle = 0;
+
+  setInterval(function() {
+    angle += 3;
+    images.rotate(angle);
+    images.fadeTo(0, 0.5).fadeTo(500, 1);
+  }, 50);
+});
+
+
+
+$(document).ready(function() {
+  var headers = $("h3");
+  
+  headers.hover(function() {
+    $(this).animate({
+      "letter-spacing": "4px",
+      "margin-top": "5px",
+      "margin-bottom": "15px"
+    }, 200);
+  }, function() {
+    $(this).animate({
+      "letter-spacing": "normal",
+      "margin-top": "10px",
+      "margin-bottom": "10px"
+    }, 200);
+  });
+});
+
+
+//effet de transition
+$(".card").hover(function(){
+    $(this).css("transform", "scale(1.05)");
+    $(this).css("box-shadow", "5px 5px 5px rgba(0,0,0,0.3)");
+}, function(){
+    $(this).css("transform", "scale(1)");
+    $(this).css("box-shadow", "none");
+});
+
+
+
+</script> 
       
-    
+
+
+
+
+<script>
+ 
+
+
+
+ // Récupérer le bouton "S'inscrire"
+var inscrireBtn = document.getElementById("inscrire-btn");
+
+// Ajouter un gestionnaire d'événements pour le clic sur le bouton
+inscrireBtn.addEventListener("click", function(e) {
+  e.preventDefault();
+
+  // Créer une fenêtre modale pour afficher le formulaire de contact
+  var modal = window.open("", "modal", "width=500,height=500");
+
+  // Ajouter le code HTML pour le formulaire de contact dans la fenêtre modale
+  modal.document.write("<h1>Contactez-nous</h1>");
+  modal.document.write("<form class='contact-form'>");
+  modal.document.write("<label for='nom'>Nom</label>");
+  modal.document.write("<input type='text' id='nom' name='nom'><br><br>");
+  modal.document.write("<label for='email'>Email</label>");
+  modal.document.write("<input type='email' id='email' name='email'><br><br>");
+  modal.document.write("<label for='message'>Message</label>");
+  modal.document.write("<textarea id='message' name='message'></textarea><br><br>");
+  modal.document.write("<button type='submit' id='envoyer-btn'>Envoyer</button>");
+  modal.document.write("</form>");
+
+  // Ajouter une balise HTML pour afficher le message de validation
+  modal.document.write("<p id='validation-msg'></p>");
+
+  // Ajouter un gestionnaire d'événements pour le clic sur le bouton "Envoyer"
+  var envoyerBtn = modal.document.getElementById("envoyer-btn");
+  envoyerBtn.addEventListener("click", function(e) {
+    e.preventDefault();
+
+    // Récupérer les données du formulaire
+    var nom = modal.document.getElementById("nom").value;
+    var email = modal.document.getElementById("email").value;
+    var message = modal.document.getElementById("message").value;
+
+    // Pour cet exemple, nous allons simplement afficher les données du formulaire dans la console
+    console.log("Nom: " + nom);
+    console.log("Email: " + email);
+    console.log("Message: " + message);
+
+    // Afficher le message de validation en vert
+var validationMsg = modal.document.getElementById("validation-msg");
+validationMsg.innerHTML = "Votre message a été envoyé avec succès.";
+validationMsg.classList.add("success-message");
+
+
+    // Fermer la fenêtre modale après un certain délai
+    setTimeout(function() {
+      modal.close();
+    }, 3000);
+  });
+});
+
+
+
+
+</script>
 </body>
 </html>
